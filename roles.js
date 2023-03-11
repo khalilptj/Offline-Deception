@@ -1,13 +1,27 @@
-//trash file just for testing
+const roles=["demon","doctor","detective","spy","vigilante","bodyguard","serialkiller","jester","janitor"] //arrays that has all the roles in the game
 
-//roles:
-/*var demon=1
-var doctor=2
-var investigator=3
-var spy=4
-var vigilante=5
-var bodyguard=6
-var serialkiller=7
-var testrole=8
-var testrole1=9
-var jester=10*/
+/*                                   ITEMS                                    */
+
+var deathBook={
+  name: "Death Book",
+  contesters: [],
+  description: "mark players, after three rounds you can choose to eliminate them. If someone else also marked them, The markers die instead."
+}
+
+var magicDice={
+  name: "Magic Dice",
+  contesters: [],
+  description: "allows you to roll on an item, if someone else is contesting it."
+}
+
+var mindControl={
+  name: "Mind Control",
+  contesters: [],
+  description: "This item allows a player to temporarily control the actions of another player. Allowing to use role powers and their items."
+}
+
+var regain={
+  name: "Re-Gain",
+  contesters: [],
+  description: "Allows the player to regain an item that he has used earlier."
+}

@@ -1,5 +1,4 @@
 const players=[]  // empty array to store player objects
-var roles=["demon","doctor","investigator","spy","vigilante","bodyguard","serialkiller","jester"] //arrays that has all the roles in the game
 
  // invoking addPlayerO to make object for every player
 function checkName(){
