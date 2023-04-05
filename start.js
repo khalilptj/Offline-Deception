@@ -1,8 +1,18 @@
+// enter click adds player
+$("#playername").keypress(function(action){
+    if(action.keyCode===13){
+        $("#add").click()
+    }
+})
+
+
+
 const players=[]  // empty array to store player objects
 
  // invoking addPlayerO to make object for every player
 function checkName(){
     const name=document.getElementById("playername").value  // assigning the name the user typed
+    $("#playername").val("")                                // removing text from textbox after adding player
     if(roles.length===0){
         return alert("Maximum players limit reached!")
     }
@@ -19,6 +29,7 @@ function checkName(){
     }
     const player=name
     players.push(player)
+    
     const $li=$("<li>").text(name)  //start of making a player list
     $("ul").append($li)
     console.log(players)

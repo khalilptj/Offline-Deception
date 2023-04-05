@@ -1,6 +1,6 @@
 //items :
 
-Magic Dice: allows you to roll on an item, if someone else is contesting it
+Magic Dice: allows you to roll on an item, if someone else is contesting it.
 
 Death book: mark players, after three rounds you can choose to eliminate them. If someone else also marked them, The markers die instead.
 
